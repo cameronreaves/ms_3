@@ -18,3 +18,5 @@ Raw data, stored in file = "raw-data",  is cleaned and stored in file = "clean-d
 I will merge the climate data with an SF datafrane from the urbanmapr package, which will map net migration by county in the United States. 
 
 I will merge the climate, zillow, and opportunity atlas dataframes, and create a metric to discover counties where you should move (variables are housing price index and upward mobiility).
+
+Link to my github repo: https://github.com/cameronreaves/ms_3
