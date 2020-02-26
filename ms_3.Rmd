@@ -1,11 +1,20 @@
-
 ---
-title: "Milestone 3
+title: "ms_3"
 output: html_document
 ---
 
-```{r}
-
-
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
+### Milestone 3 
+# Cameron Reaves
+
+Create an Rmd/html which provides a draft of your About page. All of your data processing should be complete. Remember: You must gather data from two or more different sources. 
+
+Raw data, stored in file = "raw-data",  is cleaned and stored in file = "clean-data". 
+
+I will merge the climate data with an SF datafrane from the urbanmapr package, which will map net migration by county in the United States. 
+
+I will merge the climate, zillow, and opportunity atlas dataframes, and create a metric to discover counties where you should move (variables are housing price index and upward mobiility).
